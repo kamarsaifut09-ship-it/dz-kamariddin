@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#294cbb">
+  <title>long.play — Tape doesn't last.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js"
+      }
+    }
+  </script>
+  <script type="module" src="./script.js"></script>
+  <link rel="icon" href="data:,">
+</head>
+<body>
+  <main class="hero" id="hero">
+    <div class="scene-shell" aria-hidden="true">
+      <canvas id="scene"></canvas>
+      <div class="scene-vignette"></div>
+      <div class="scene-grain"></div>
+      <div class="frame-line"></div>
+    </div>
+
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="long.play home">long<span>.</span>play</a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#services">SERVICES</a>
+        <a href="#formats">FORMATS</a>
+        <a href="#pricing">PRICING</a>
+        <a href="#contacts">CONTACTS</a>
+      </nav>
+      <a class="nav-cta" href="#contacts">GET STARTED <span>↗</span></a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </header>
+
+    <section class="hero-copy" aria-label="Introduction">
+      <p class="eyebrow">PRESERVE WHAT MATTERS</p>
+      <h1>Tape doesn't last.</h1>
+      <p class="subtitle">The players are going too.</p>
+    </section>
+
+    <div class="bottom-copy">
+      <p>We scan VHS, Hi8, Super 8 and MiniDV frame by frame, correct the color<br class="desktop-break">
+        by hand, and send back files you'll still be able to open in twenty years.</p>
+      <a class="primary-cta" href="#contacts">
+        <span>Start with one tape</span>
+        <span class="cta-mark" aria-hidden="true">≈</span>
+      </a>
+    </div>
+
+    <div class="bottom-note"><span class="status-dot"></span> PRIVACY-FIRST. NO DATA RESOLD.</div>
+    <div class="sound-note" aria-hidden="true">MOVE YOUR CURSOR TO EXPLORE</div>
+  </main>
+</body>
+</html>
